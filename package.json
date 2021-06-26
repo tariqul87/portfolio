@@ -1,5 +1,6 @@
 {
-  "name": "my-profile",
+  "homepage": "http://tariqul87.github.io/portfolio/",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,7 +13,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "predeploy": "yarn build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",

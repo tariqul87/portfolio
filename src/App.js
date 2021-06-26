@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      Tariqul Islam is alive!
+      <h1>Tariqul Islam is alive!</h1>
     </div>
   );
 }
